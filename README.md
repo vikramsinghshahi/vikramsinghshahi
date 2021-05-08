@@ -1,6 +1,5 @@
-### Hi there 👋  🌱 I’m currently learning full stack web development course at www.altcampus.io
+### Hi there 👋  🌱 I’m currently learning full stack web development course.
 
-<!--
 **vikramsinghshahi/vikramsinghshahi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
