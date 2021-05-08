@@ -1,5 +1,5 @@
 ### Hi there 👋  🌱 I’m currently learning full stack web development course.
-![animation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F3831026-New-Reel-Intro-Teaser-1-Character-Animation&psig=AOvVaw12iOWPbgJzmpo4gGcD9CND&ust=1620583646376000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNja0tbWuvACFQAAAAAdAAAAABAD)
+![animation](github.gif)
 **vikramsinghshahi/vikramsinghshahi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 <--Here are some ideas to get you started:
