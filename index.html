@@ -2,26 +2,119 @@
 <html lang="en">
 	<head>
         <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>new article </title>
+		<meta name="viewport" content="=device-, initial-scale=1.0">
+		<title>Vikram Singh Shahi </title>
 		<script src="https://kit.fontawesome.com/3f8302ce21.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="style.css">
-        <script src="index.js"></script>
+        <link rel="stylesheet" href="assets/style.css">
 	</head>
-	<body>
+	<body id = "top">
 		<header>
-            <div class="banner">
-                <img src="assets/media/myAvatar-removebg-preview.png" width="300px" alt="image-1">
-            </div>
-            <div class="text" >
-                <h1>Hello! My self vikram singh shahi</h1>
-                <p>Welcome to my github account </p>
-                
-                
-            </div>
-			
-			
+           <div class= "flex container padding  header">
+                <h1>Vikram Singh Shahi</h1>
+                <ul class="flex header-link">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+         </div>
+           
+           	
 		</header>
+        <main>
+            <!---About section----------->
+            <section  class= "flex container padding-top-bottom">
+                <div class= "flex-45">
+                    <div>
+                        <h2>
+                            About Me
+                        </h2>
+                        <p>
+                            I am a full stack junior Developer currently  I am a full stack junior Developer currently 
+                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
+                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
+                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
+                        </p>
+                    </div>
+                    <div class= "about-link flex">
+                       <div>
+                            <a href="https://github.com/vikramsinghshahi">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://twitter.com/vikramshahi96">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vikram-s-14964786/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        
+                       </div>
+
+                        <div>
+                            <a   class= "resume" href="https://drive.google.com/drive/folders/1_FFEecj4gl3aFzxucKLx6k7iW8EUmVVh">RESUME</a>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class= "flex-45 center skills-col">
+                    <h2>Skillls</h2>
+                    <figure class= "skills-logo">
+                        <img src="assets/media/html-icon.webp" alt="html-icon"  >
+                        <img src="assets/media/CSS.3.svg.png" alt="css-icon"  >
+                        <img src="assets/media/javascript-icon-png-23.png" alt="javascript-icon"  >
+                        <img src="assets/media/Git-Icon-1788C.png" alt="github-icon"  >
+                    </figure>
+                </div>
+            </section>
+            <!----Projects section-------->
+            <section class="container padding-top-bottom">
+                <h2>Projects</h2>
+                <ul class= "poject-bio">
+                 
+                </ul>
+
+            </section>
+            <!-----contact section-------->
+            <section class="container center padding-top-bottom">
+                <h2>Contact me</h2>
+                <div class="form-container ">
+                    <form action="action_page.php">
+                  
+                        <label for="name"></label>
+                        <input type="text" id="name" name="your name" placeholder="Enter Your name..">
+                    
+                        <label for="email"></label>
+                        <input type="text" id="email" name="your email" placeholder=" Enter Your email..">
+                    
+                        <label for="subject"></label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input class= "submit-btn" type="submit" value="Submit">
+                    
+                      </form>
+                  </div>  
+            </section>
+        </main>
+        <footer class= "footer">
+            <div class="container">
+               <p>Webpage made by Vikram Singh Shahi &copy; 2021</p>
+               <div class=" footer-btn"> 
+                   <a href="#top">Back To Top</a>
+               </div>
+            </div>
+
+        </footer>
+        <script src="./index.js"></script>
     </body>
 </html>
