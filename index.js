@@ -1,63 +1,90 @@
-let projects = [ {
-                    intro: "project name",
-                    date: "May 21, 2021",
-                    image:"hhtp//www.altcampus.com",
-                    para: "about the project",
-                 },{
-                  name: "project name",
+/*let projects = [ {
+                    intro: "Basic Calculator",
+                    date: "June 21, 2021",
+                    image: `assets/media/project.png`,
+                    para: "Created basic function of a calculator with the help of javascript",
+                 },
+                 {
+                  intro: "Flip box",
+                  date: "June 20, 2021",
+                  image: `assets/media/project.png`,
+                  para: "Flip box UI ",
+                 },
+                 {
+                  intro: "project intro",
                   date: "May 21, 2021",
-                  img:"hhtp//www.altcampus.com",
                   para: "about the project",
-                 },{
-                  name: "project name",
+                  image: `assets/media/project.png`,
+                 },
+                 {
+                  intro: "project intro",
                   date: "May 21, 2021",
-                  image:"hhtp//www.altcampus.com",
                   para: "about the project",
-                 },{
-                  name: "project name",
+                  image: `assets/media/project.png`,
+                 },
+                 {
+                  intro: "project intro",
                   date: "May 21, 2021",
-                  image:"hhtp//www.altcampus.com",
                   para: "about the project",
-                 }];
+                  image: `assets/media/project.png`,
+                 },
+                 {
+                  intro: "project intro",
+                  date: "May 21, 2021",
+                  para: "about the project",
+                  image: `assets/media/project.png`,
+                 },
+   
+               ];
 
 
 
-let ul = document.querySelector(`.project-bio`);
+let ul = document.querySelector(`.project-list`);
 
+console.log(ul)
 
-/*projects.forEach((ele) =>{
+function getElement(){
 
-  let li = document.querySelector(`.project-box`);
+projects.forEach((ele) =>{
 
-  let h3 = document.querySelector(`h3`);
-
-  h3.innertext = ele.name;
-
-  let p = document.querySelector(`p`);
-
-  p.innerText = ele.date;
-
-  let image = document.querySelector(`img`);
-
-  image.innerText = ele.img
-
-  li.append(h3 , p ,image);
-
-  console.log(li);
-
-   ul.append(li);
-
-}) */
-
-projects.forEach((ele) => {
+   let li = document.createElement(`li`);
   
-   let newHtml = `<li class = "project-box">
-  <h3>`${ele.intro}`</h3>
-  <p>May 21, 2021</p>
-  <img  src="#" alt="#">
-  <p>text about the project</p>
-  
-</li>`
+   li.classList.add("flex-30");
+
+   li.classList.add("margin");
+   
+   let h3 = document.createElement(`h3`);
+ 
+   h3.innerText = ele.intro;
+ 
+   let span = document.createElement(`span`);
+ 
+   span.innerText = ele.date;
+
+   let p = document.createElement(`p`);
+ 
+   p.innerText = ele.para;
+ 
+  let img = document.createElement(`img`);
+ 
+  img.src = ele.image;
+  img.alt = ele.intro;
+  img.classList.add("width");
+ 
+   li.append(h3 ,span, p , img);
+ 
+ 
+ 
+ 
+    ul.append(li);
+ 
+   
+ 
+ }
+ ) 
+}
+ 
+getElement();*/
+ 
 
 
-})

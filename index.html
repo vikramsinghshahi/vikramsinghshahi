@@ -2,49 +2,59 @@
 <html lang="en">
 	<head>
         <meta charset="UTF-8">
-		<meta name="viewport" content="=device-, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Vikram Singh Shahi </title>
 		<script src="https://kit.fontawesome.com/3f8302ce21.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="assets/style.css">
+        
 	</head>
 	<body id = "top">
-		<header>
-           <div class= "flex container padding  header">
+       
+		<header class= "header">
+           <div class= "flex container header-bar">
                 <h1>Vikram Singh Shahi</h1>
                 <ul class="flex header-link">
                     <li>
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about-link">About</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#project-link">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact-link">Contact</a>
                     </li>
                 </ul>
          </div>
            
-           	
+         
 		</header>
         <main>
+
             <!---About section----------->
-            <section  class= "flex container padding-top-bottom">
-                <div class= "flex-45">
+            <section  class= "flex container padding-top-bottom " id = " about-link">
+                <div class= "margin centera about-section">
                     <div>
                         <h2>
                             About Me
                         </h2>
                         <p>
-                            I am a full stack junior Developer currently  I am a full stack junior Developer currently 
-                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
-                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
-                             I am a full stack junior Developer currently  I am a full stack junior Developer currently 
+                            I am a full stack junior Developer currently improving my skills at altcampus.
+                            I am crazy for tea. I develop apps for fun and some of my other hobbies are
+                            fitness,play basketball and playing games.I also carry an experince in ed-tech industry of 2yr 
+                            where i have contibuted in the growth by dealing directly with the consumer and creating the need of online education as a service.While 
+                            working there i realise how important technical skiills for someone. <br>Its been 3 month learning the skills 
+                             have created various projects and gain confidence. I got good mentors at altcampus 
+                             because of which my learning journey is getting smmoth till now.
+                            In my free time i love to solve the logical problmes 
+                             in codewar.
+
+                
                         </p>
                     </div>
                     <div class= "about-link flex">
@@ -67,7 +77,11 @@
                     
                     </div>
                 </div>
-                <div class= "flex-45 center skills-col">
+            </section>
+
+            <!--------skills section---->
+            <section id = "skills-link">
+                <div class= "center skills-col padding-top-bottom">
                     <h2>Skillls</h2>
                     <figure class= "skills-logo">
                         <img src="assets/media/html-icon.webp" alt="html-icon"  >
@@ -77,16 +91,67 @@
                     </figure>
                 </div>
             </section>
-            <!----Projects section-------->
-            <section class="container padding-top-bottom">
-                <h2>Projects</h2>
-                <ul class= "poject-bio">
-                 
-                </ul>
 
+            <!----Projects section-------->
+            <section class="container padding-top-bottom center project" id= "project-link">
+                <h2>Projects</h2>
+                <div>
+                    <ul class= "project-list flex wrap center">
+                       <li class="flex-30 image-width project-col ">
+                            <h3>Calculator</h3>
+                            <img src="assets/media/project-1.png" alt="project-image-1" >
+                            <p>Calculator for basic operation.</p>
+                            <a href="https://github.com/vikramsinghshahi/TA-JS-DOM-and-Events-TJaaaf/tree/block-BJaaeo/block-BJaaeo">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/TA-JS-DOM-and-Events-TJaaaf/block-BJaaeo/code/index.html">live website</a>
+    
+                        </li>
+                        <li class="flex-30 image-width img project-col">
+                            <h3>Rock Paper Scissor Game</h3>
+                            <img src="assets/media/project-2.png" alt="project-image-1"   >
+                            <p>Rock paper scissor game between the user and computer.</p>
+                            <a href="https://github.com/vikramsinghshahi/rockpaperscissor">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/rockpaperscissor/">live website</a>
+    
+                        </li>
+                        <li class="flex-30 image-width img project-col">
+                            <h3>Clock</h3>
+                            <img src="assets/media/project-3.png" alt="project-image-1"  >
+                            <p>Analog clock created with the help of javascript </p>
+                            <a href="https://github.com/vikramsinghshahi/dynamic-analog-clock">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/dynamic-analog-clock/">live website</a>
+    
+                        </li>
+                        <li class="flex-30 image-width img project-col">
+                            <h3>Responsive UI page</h3>
+                            <img src="assets/media/project-5.png" alt="project-image-1"  >
+                            <p>The page is responsive and adaptive in all screen sizes.</p>
+                            <a href="https://github.com/vikramsinghshahi/checkpoint-4-assignment">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/checkpoint-4-assignment/">live website</a>
+    
+                        </li>
+                        <li class="flex-30 image-width img project-col">
+                            <h3>Responsive WebPage</h3>
+                            <img src="assets/media/project-6.png" alt="project-image-1"  >
+                            <p>Basic UI web page </p>
+                            <a href="https://github.com/vikramsinghshahi/assignment-chcekpoint-3">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/assignment-chcekpoint-3/">live website</a>
+    
+                        </li>
+                        <li class="flex-30 image-width img  project-col">
+                            <h3>Web Page</h3>
+                            <img  src="assets/media/project-4.png" alt="project-image-1">
+                            <p>Basic UI web page, alligned elemnets with the help of flex-box</p>
+                            <a href="https://github.com/vikramsinghshahi/flex-assignment-checkponit-2">Github repo</a>
+                            <a href="https://vikramsinghshahi.github.io/flex-assignment-checkponit-2/">live website</a>
+    
+                        </li>   
+
+                    </ul>
+                </div>
             </section>
+
             <!-----contact section-------->
-            <section class="container center padding-top-bottom">
+            <section class="container center padding-top-bottom contact" id = "contact-link" >
                 <h2>Contact me</h2>
                 <div class="form-container ">
                     <form action="action_page.php">
@@ -106,6 +171,7 @@
                   </div>  
             </section>
         </main>
+
         <footer class= "footer">
             <div class="container">
                <p>Webpage made by Vikram Singh Shahi &copy; 2021</p>
@@ -113,7 +179,7 @@
                    <a href="#top">Back To Top</a>
                </div>
             </div>
-
+        
         </footer>
         <script src="./index.js"></script>
     </body>
