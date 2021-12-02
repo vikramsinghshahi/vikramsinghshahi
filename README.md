@@ -1,4 +1,4 @@
-### Hi there 👋 I’m Vikram Singh Shahi.
+### Hi there 👋 I’m Vikram Singh Shahi, Full Stack Developer(MERN).
 ---
 #### A programming enthusiast, skilled in MERN stack web development.
 - 🔭 I’m actively looking for a Full Stack / Front End Developers Role.
@@ -22,8 +22,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-![Sudarshan github stats](https://github-readme-stats.vercel.app/api?username=vikramsinghshahi&hide=["issues"]&show_icons=true) 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikramsinghshahi&layout=compact&theme=darcula&langs_count=10)
+![Sudarshan github stats](https://github-readme-stats.vercel.app/api?username=vikramsinghshahi&hide=["issues"]&show_icons=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikramsinghshahi&layout=compact&theme=darcula&langs_count=10)
 
 ---
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
