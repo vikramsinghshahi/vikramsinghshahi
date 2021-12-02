@@ -1,6 +1,8 @@
-### Hi there 👋  🌱 I’m currently learning full stack web development.
+### Hi there 👋 I’m Vikram Singh Shahi.
 ---
 #### A programming enthusiast, skilled in MERN stack web development.
+- 🔭 I’m actively looking for a Full Stack / Front End Developers Role.
+- ✨ Love to work with JavaScript, ReactJS, and NodeJS.
 
 ### Languages and Tools:
 
@@ -23,4 +25,12 @@
 ![Sudarshan github stats](https://github-readme-stats.vercel.app/api?username=vikramsinghshahi&hide=["issues"]&show_icons=true) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikramsinghshahi&layout=compact&theme=darcula&langs_count=10)
 
+---
+<h3> 🤝🏻 &nbsp;Connect with Me </h3>
+
+<p align="center">
+<a href=""><img alt="Website" src="https://img.shields.io/badge/Website-www.vikramsinghshahi.com-blue?style=flat-square&logo=google-chrome"></a>
+<a href="https://www.linkedin.com/in/vikram-s-14964786/?locale=en_US"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-vikram%20singh%20Shahi-blue?style=flat-square&logo=linkedin"></a>
+<a href="vikramsinghshahi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-vikramsinghshahi@gmail.com-blue?style=flat-square&logo=gmail"></a>
+</p>
 
