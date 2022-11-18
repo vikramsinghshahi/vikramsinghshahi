@@ -1,4 +1,7 @@
 ### Hi there 👋 I’m Vikram Singh Shahi, Full Stack Developer(MERN).
+
+![](https://komarev.com/ghpvc/?username=vikramsinghshahi@gmail.com)
+
 ---
 #### A programming enthusiast, skilled in MERN stack web development.
 - 🔭 I’m actively looking for a Full Stack / Front End Developers Role.
