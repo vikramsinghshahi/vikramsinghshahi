@@ -4,7 +4,6 @@
 
 ---
 #### A programming enthusiast, skilled in MERN stack web development.
-- 🔭 I’m actively looking for a Full Stack / Front End Developers Role.
 - ✨ Love to work with JavaScript, ReactJS, and NodeJS.
 
 ### Languages and Tools:
